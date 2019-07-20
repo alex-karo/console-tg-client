@@ -293,7 +293,6 @@ export interface IUpdateChatLastMessageEvent {
 
 export interface IUpdateNewMessageEvent {
   '@type': 'updateNewMessage';
-  chat_id: number;
   message: IMessage;
 }
 
